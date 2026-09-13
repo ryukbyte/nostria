@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nostra - Collections</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <h1 class="logo">Nostra</h1>
+
+        <div class="nav-links" id="navLinks">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="collections.html">
+                Collections
+            </a>
+
+            <a href="contact.html">
+                Contact Us
+            </a>
+
+        </div>
+
+        <button id="menuButton" class="menu-button">
+            ☰
+        </button>
+
+    </nav>
+
+
+    <!-- PAGE TITLE -->
+
+    <section class="page-heading">
+
+        <p class="small-title">
+            EXPLORE NOSTRA
+        </p>
+
+        <h1>Our Collections</h1>
+
+        <p>
+            Find your favourite products.
+        </p>
+
+    </section>
+
+
+    <!-- SEARCH + FILTER -->
+
+    <section class="collection-section">
+
+
+        <!-- SEARCH -->
+
+        <div class="search-section">
+
+            <label for="search">
+                Search Products
+            </label>
+
+            <input type="text" id="search" placeholder="Search for a product...">
+
+        </div>
+
+
+        <!-- CATEGORY FILTER -->
+
+        <div class="filter-section">
+
+            <h3>Filter By Category</h3>
+
+            <div class="filter-buttons">
+
+                <button class="filter-btn active" data-category="All">
+                    All
+                </button>
+
+                <button class="filter-btn" data-category="Men">
+                    Men
+                </button>
+
+                <button class="filter-btn" data-category="Women">
+                    Women
+                </button>
+
+                <button class="filter-btn" data-category="Kids">
+                    Kids
+                </button>
+
+                <button class="filter-btn" data-category="Accessories">
+                    Accessories
+                </button>
+
+                <button class="filter-btn" data-category="Shoes">
+                    Shoes
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <p id="resultCount"></p>
+
+
+        <!-- PRODUCTS -->
+
+        <div class="product-grid" id="productContainer">
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <h2>Nostra</h2>
+
+        <p>
+            Simple style. Everyday confidence.
+        </p>
+
+        <p>
+            &copy; 2026 Nostra
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
